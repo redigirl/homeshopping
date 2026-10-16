@@ -1,0 +1,153 @@
+h1 {
+    text-align: center;
+    margin-top:100px;
+}
+body{
+    background-color: #FCD6E3;
+}
+#contact {
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:60px 20px;
+}
+
+label {
+    font-size:22px;
+    margin-top:16px;
+    padding:10px;
+}
+input {
+    font-size: 22px;
+}
+.btn {
+    font-size: 22px;
+    margin-top:28px;
+}
+.nav{
+    text-align: right;
+    margin-right: 50px;
+    font-size:18px;
+    
+    
+}
+.nav a{
+    color:black;
+    
+}
+.nav a:hover {
+    color:#FF1493;
+    cursor:pointer;
+}
+footer {
+    text-align: center;
+    font-size:24px;
+    margin-top: 70px;
+}
+
+    .fa-brands{
+        margin-right: 12px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+.contact-box {
+  margin-left: 500px;
+  width: 500px;
+  background-color:#808080;
+  color: #ffffff;
+  padding: 30px;
+  border: 2px solid #A9A9A9;
+  box-sizing: border-box;
+}
+
+.com{
+    width:300px;
+    min-height: 100px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 70px;
+    
+}
+.email{
+    margin-top: 20px;
+}
+.btn{
+    font-weight:40px;
+    margin-left: 170px;
+}
+ textarea {
+    margin-top: 20px;
+    width:100%;
+    min-height: 120px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin-top: 48px;
+    }
+
+    .nav {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .contact-box {
+        width: min(100% - 32px, 500px);
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .contact-box label {
+        display: block;
+        padding: 8px 0;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .contact-box input {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+
+    .btn {
+        display: block;
+        margin: 20px auto 0;
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        margin-top: 32px;
+        font-size: 28px;
+    }
+
+    .nav {
+        margin-right: 12px;
+        font-size: 14px;
+    }
+
+    .contact-box {
+        width: calc(100% - 24px);
+        padding: 18px;
+    }
+
+    .contact-box input {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+}

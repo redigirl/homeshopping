@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth | Shop</title>
+<link rel="stylesheet" href="shop.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">HomeShopping</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html" class="active">Shop</a>
+    <a href="service.html">Service</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="mebership.html">Join</a>
+  </nav>
+  <a class="cart-btn" href="cart.html">Cart <span class="badge" id="cartCount">0</span></a>
+</header>
+<main>
+  <h1>Shop</h1>
+  <p class="lead">Add items to your cart.</p>
+  <div class="grid">
+    <div class="card"><div class="thumb">👠</div><b>Stiletto Heels</b><div class="price">10000ETB</div><button onclick="addToCart(1,'Stiletto Heels',10000,'👠')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">👟</div><b>Canvas Sneakers</b><div class="price">4999ETB</div><button onclick="addToCart(2,'Canvas Sneakers',4999,'👟')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">💍</div><b>Gold Hoop Earrings</b><div class="price">20000ETB</div><button onclick="addToCart(3,'Gold Hoop Earrings',20000,'💍')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">📿</div><b>Beaded Necklace</b><div class="price">8000ETB</div><button onclick="addToCart(4,'Beaded Necklace',8000,'📿')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">👗</div><b>Wrap Dress</b><div class="price">7000ETB</div><button onclick="addToCart(5,'Wrap Dress',7000,'👗')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">🧥</div><b>Denim Jacket</b><div class="price">4000ETB</div><button onclick="addToCart(6,'Denim Jacket',4000,'🧥')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">👖</div><b>Jeans</b><div class="price">2000ETB</div><button onclick="addToCart(7,'Jeans',2000,'👖')">Add to Cart</button></div>
+    <div class="card"><div class="thumb">👢</div><b>Women Boots</b><div class="price">8000ETB</div><button onclick="addToCart(8,'Women Boots',8000,'👢')">Add to Cart</button></div>
+</div>
+</main>
+<script src="cart.js"></script>
+</body>
+</html>

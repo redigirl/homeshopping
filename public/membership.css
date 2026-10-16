@@ -1,0 +1,263 @@
+.header {
+    background-color: pink;
+    text-align: center;
+   
+}
+.header p{
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 20px;
+}
+.member-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+ h2 {
+    text-align: center;
+    margin-top: 43px;
+    
+}
+.member-container .member-box {
+    height:50px;
+    background: pink;
+    flex:1 1 10rem;
+    padding:5rem 2rem 5rem;
+    text-align: center;
+    
+    border-radius: 20px;
+    border:0.3rem solid white; 
+    transition: 0.3s ease;
+}
+.member-container .member-box:hover {
+    border-color:#FF6EB4;
+    transform:scale(1.02);
+
+}
+.member-box i{
+    font-size: 7rem;
+    color:pink;
+}
+.member-box h3{
+    font-size: 1.6rem;
+    margin-top: -20px;
+    
+    
+}
+.member-box p{
+    font-size:1.3rem;
+    margin:1rem 0 3rem;
+    
+}
+.contacts-box{
+  margin-left: 600px;
+  width: 300px;
+  height:400px;
+  background-color:pink;
+  color: #ffffff;
+  padding: 30px;
+  border: 2px solid #FF6EB4;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-right: 10px;
+  
+}
+.par {
+    font-size:32px;
+    text-align: center;
+    margin-right: 180px;
+    margin-left: 100px;
+}
+.name{
+    margin-left: 10px;
+    margin-top: 10px;  
+}
+.name input{
+    width:230px;
+}
+.email{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.email input{
+    width:230px;
+}
+.pass{
+    margin-left:10px;
+}
+.pass input{
+   width:230px; 
+}
+.phone{
+   margin-left: 10px;
+    margin-top: 10px;  
+}
+.phone input{
+     width:230px; 
+}
+.secondary-action{
+    margin-left:20px;
+    margin-top:40px;
+   
+}
+.BTN{
+    text-align: center;
+    margin-right: 190px;
+    margin-top: 20px;
+}
+.BTN .btn-login{
+    background:hsl(27, 93%, 49%);
+    color:white;
+    width:150px;
+    height:40px;
+    border-radius: 30px;
+    border-color: none;
+    margin-left: 70px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 110px;
+}
+
+.social-login-container{
+    text-align: center;
+    padding-right: 70px;
+    background: pink;
+    width:200px;
+    height:80px;
+    border-radius: 10px;
+    margin-left: 610px;
+}
+.social-login-title{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 51px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.social-buttons{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.social-buttons:hover {
+    transform: scale(1.1);
+    color: black;
+    cursor: pointer;
+}
+.redirect-text{
+    text-align: center;
+    margin-right: 70px;
+}
+
+     .fa-brands{
+        margin-right: 12px;
+        margin-left: 22px;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+#statusMessage {
+  text-align: center;   /* centers the text */
+  margin-top: 15px;
+  font-weight: bold;
+}
+#statusMessage.success { color: green; }
+#statusMessage.error { color: red; }
+
+@media (max-width: 768px) {
+    .par {
+        margin: 32px 16px 20px;
+        font-size: 28px;
+    }
+
+    .contacts-box {
+        width: min(100% - 32px, 360px);
+        height: auto;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .name,
+    .email,
+    .pass,
+    .phone {
+        margin-left: 0;
+    }
+
+    .name input,
+    .email input,
+    .pass input,
+    .phone input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .secondary-action {
+        margin: 24px 0 0;
+    }
+
+    .BTN {
+        margin: 20px 0 0;
+    }
+
+    .BTN .btn-login {
+        margin-left: 0;
+    }
+
+    h2 {
+        padding-right: 0;
+    }
+
+    .social-login-container {
+        box-sizing: border-box;
+        width: min(100% - 32px, 320px);
+        height: auto;
+        min-height: 80px;
+        margin: 0 auto;
+        padding: 12px;
+    }
+
+    .social-login-title,
+    .social-buttons {
+        margin-left: 0;
+    }
+
+    .redirect-text {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .par {
+        margin-top: 24px;
+        font-size: 24px;
+    }
+
+    .contacts-box {
+        width: calc(100% - 24px);
+        padding: 18px;
+    }
+
+    .contacts-box label {
+        font-size: 15px;
+    }
+
+    .contacts-box input {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .BTN .btn-login {
+        width: 140px;
+    }
+
+    .fa-brands {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+}
